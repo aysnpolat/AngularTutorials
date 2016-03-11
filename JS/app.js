@@ -1,0 +1,1 @@
+var aysunApp=angular.module("aysunApp",[]);

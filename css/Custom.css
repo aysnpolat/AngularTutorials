@@ -1,0 +1,8 @@
+body{
+	background-color: #00FFFF; /*arka plan rengini belirler*/
+}
+.input-textbox{
+	padding: 8px; /*dört yönden verdiğimiz değer kadar iç boşluk verir*/
+	border: 2px solid red; /*çizgi kalınlığı style ve rengini belirler*/
+	margin-bottom: 10px; /*DOM objesinin altından verilen değer kadar iter ya da boşluk bırakır*/
+}

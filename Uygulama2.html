@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="aysunApp">
+		<head>
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
+			<script src="js/angular.min.js"></script>
+			<script type="text/javascript" src="JS/app.js"></script>
+			<script type="text/javascript" src="Controller/mainController.js"></script>
+			<meta charset="UTF-8">
+			<title>Angular</title>
+		</head>
+				<body >
+				<div ng-controller="MainController">
+					doğru sayısı:</br>
+						<input type="text" class="input-textbox" ng-model="kutu1"></br>
+						<input type="text" class="input-textbox" ng-model="kutu2"></br>
+						<input type="button" ng-click="hesapla()">
+							hesapla
+						</input>
+						<label>
+							{{sonuc}}
+						</label>
+				</div>
+				
+
+				</body>
+</html>
